@@ -1,0 +1,5 @@
+#org.springframework.boot.autoconfigure.EnableAutoConifguration=\
+#  com.zhy.zhytest.HelloServiceAutoConfiguration   之前HelloService在项目中始终注入不了是因为EnableAutoConifguration拼写错误
+#配置自定义Starter的自动化配置
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhy.zhytest.HelloServiceAutoConfiguration
